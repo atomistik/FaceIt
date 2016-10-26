@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE033AE11DC05B1F00629C2C /* FacialExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE033AE01DC05B1F00629C2C /* FacialExpressions.swift */; };
 		DE1C3D4E1DBFE65E006720C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3D4D1DBFE65E006720C5 /* AppDelegate.swift */; };
 		DE1C3D501DBFE65E006720C5 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3D4F1DBFE65E006720C5 /* FaceViewController.swift */; };
 		DE1C3D531DBFE65E006720C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3D511DBFE65E006720C5 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE033AE01DC05B1F00629C2C /* FacialExpressions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpressions.swift; sourceTree = "<group>"; };
 		DE1C3D4A1DBFE65E006720C5 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C3D4D1DBFE65E006720C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1C3D4F1DBFE65E006720C5 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				DE1C3D601DBFE7BD006720C5 /* FaceView.swift */,
 				DE1C3D511DBFE65E006720C5 /* Main.storyboard */,
 				DE1C3D5F1DBFE6A0006720C5 /* Supporting File */,
+				DE033AE01DC05B1F00629C2C /* FacialExpressions.swift */,
 			);
 			path = FaceIt;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1C3D501DBFE65E006720C5 /* FaceViewController.swift in Sources */,
+				DE033AE11DC05B1F00629C2C /* FacialExpressions.swift in Sources */,
 				DE1C3D4E1DBFE65E006720C5 /* AppDelegate.swift in Sources */,
 				DE1C3D611DBFE7BD006720C5 /* FaceView.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				DE1C3D5E1DBFE65E006720C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
